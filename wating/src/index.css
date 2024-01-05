@@ -1,4 +1,14 @@
 *{margin: 0; padding: 0; box-sizing: border-box; color: black;}
+@font-face {
+    font-family: "WantedSans-Medium";
+    font-weight: normal;
+    src: url("./Fonts/WantedSans-Medium.otf") format("truetype");
+  }
+  
+body {
+font-family: "WantedSans-Medium";
+}
+
 a{
     text-decoration: none;
 }
