@@ -10,13 +10,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='App'>
-			<BrowserRouter>
+		<BrowserRouter>
         <Header/>
-				<Routes>
-					<Route path="/" element={<Main />}></Route>
-				</Routes>
-			</BrowserRouter>
-		</div>
+		<Routes>
+			<Route path="/" element={<Main />}></Route>
+		</Routes>
+		</BrowserRouter>
+	</div>
   </React.StrictMode>
 );
 reportWebVitals();
