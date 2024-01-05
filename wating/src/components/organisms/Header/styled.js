@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.div`
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    background-color: gray;
-    >*{
-        width: calc(100vw/3);
-    }
+    width: 300px;
+    height: 100vh;
+    background-color: #002266;
 `
 
 export const Menu = styled.ul`
