@@ -2,13 +2,12 @@ import React from "react";
 import * as S from "./styled"
 import ManagementTitle from "../../atoms/ManagementTitle";
 
-
-const WaitManagement = () => {
+const PersonManagement = () => {
     return(
         <S.Wrap>
-            <ManagementTitle text={"웨이팅 관리"}/>
+            <ManagementTitle text={"인원 관리"}/>
         </S.Wrap>
     )
 }
 
-export default WaitManagement;
+export default PersonManagement;
