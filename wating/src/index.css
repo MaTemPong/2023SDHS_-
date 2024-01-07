@@ -1,17 +1,15 @@
-*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
 @font-face {
     font-family: "WantedSans-Medium";
     font-weight: normal;
     src: url("./Fonts/WantedSans-Medium.otf") format("truetype");
-  }
-  
-body {
-font-family: "WantedSans-Medium";
 }
 
-a{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: inherit;
     text-decoration: none;
-}
-li{
     list-style: none;
+    font-family: "WantedSans-Medium";
 }
