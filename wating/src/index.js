@@ -16,9 +16,9 @@ root.render(
 		<BrowserRouter>
         <Header/>
 		<Routes>
-			<Route path="/waitList" element={<WaitManagement />}></Route>
-			<Route path="/personList" element={<PersonManagement />}></Route>
-			<Route path="/groupList" element={<GroupManagement />}></Route>
+			<Route path="/waitList" element={<WaitManagement />} />
+			<Route path="/personList" element={<PersonManagement />} />
+			<Route path="/groupList" element={<GroupManagement />} />
 		</Routes>
 		</BrowserRouter>
 	</div>
