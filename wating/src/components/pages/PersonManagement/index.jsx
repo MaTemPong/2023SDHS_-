@@ -7,7 +7,7 @@ const PersonManagement = () => {
         <S.Wrap>
             <ManagementTitle text={"인원 관리"}/>
         </S.Wrap>
-    )
+    );
 }
 
 export default PersonManagement;
