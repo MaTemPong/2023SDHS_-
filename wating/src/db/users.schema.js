@@ -16,6 +16,10 @@ const userSchema = new Schema({
   email: {
     type: String,
     require: true
+  },
+  isAdmin: {
+    type: Boolean,
+    require: true
   }
 });
 
