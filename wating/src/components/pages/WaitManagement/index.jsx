@@ -8,7 +8,7 @@ const WaitManagement = () => {
         <S.Wrap>
             <ManagementTitle text={"웨이팅 관리"}/>
         </S.Wrap>
-    )
+    );
 }
 
 export default WaitManagement;
