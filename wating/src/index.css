@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0; box-sizing: border-box; color: black;}
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit;}
 @font-face {
     font-family: "WantedSans-Medium";
     font-weight: normal;
