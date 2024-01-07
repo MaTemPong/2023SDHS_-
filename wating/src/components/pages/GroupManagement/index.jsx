@@ -7,7 +7,7 @@ const GroupManagement = () => {
         <S.Wrap>
             <ManagementTitle text={"조직 관리"}/>
         </S.Wrap>
-    )
+    );
 }
 
 export default GroupManagement;
