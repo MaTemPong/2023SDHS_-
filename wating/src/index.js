@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Router from './components/router';
 import { dbConnect } from './db/connect';
 
-import 'dotenv/config';
+require('dotenv').config();
 
 const init = async () => {
 
