@@ -11,7 +11,10 @@ const init = async () => {
 
 }
 
-init();
+init()
+	.catch((err) => {
+		console.error('Error is occured while running application. Error: ', err);
+	});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
